@@ -1,0 +1,49 @@
+header{
+    background-color: rgb(252, 246, 176);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: rgb(8, 7, 5);
+}
+
+li:hover{
+    background-color: rgb(246, 206, 98);
+}
+li{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logo-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.endereço{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
